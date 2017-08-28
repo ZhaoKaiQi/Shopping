@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/BeanUtils"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/c3p0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/DBUtils"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSON"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSTL"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MySQL"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

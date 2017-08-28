@@ -1,0 +1,144 @@
+// C# Document
+body {
+	font-family: "΢���ź�";
+}
+
+* {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden
+}
+
+.sum {
+	width: 980px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 980px;
+	height: 110px;
+}
+
+.content {
+	width: 980px;
+	height: 490px;
+}
+
+.left1 {
+	width: 640px;
+	height: 430px;
+	float: left;
+}
+
+.foot {
+	width: 980px;
+	height: 100px;
+}
+
+#con_one_1 {}
+
+.tab1 {
+	width: 335px;
+	height: 240px;
+	border: 1px #CCC solid;
+	border-bottom: none;
+}
+
+.menu {
+	width: 335px;
+	background: #eee;
+	height: 28px;
+	border-right: #A8C29F solid 1px;
+	border-bottom: #A8C29F solid 1px;
+}
+
+li {
+	float: left;
+	width: 99px;
+	text-align: center;
+	line-height: 28px;
+	height: 28px;
+	cursor: pointer;
+	border-left: #A8C29F solid 1px;
+	color: #666;
+	font-size: 14px;
+	overflow: hidden
+}
+
+#con_one_1,
+#con_one_2,
+#con_one_3 {
+	width: 330px;
+	height: 350px;
+}
+
+.user {
+	width: 330px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.user_1 {
+	width: 330px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.end {
+	width: 340px;
+	height: 80px;
+}
+
+.user_2 {
+	width: 180px;
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+}
+
+.user_3 {
+	width: 110px;
+	height: 30px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.bBorder {
+	color: #666;
+}
+
+.fBorder {
+	color: #000;
+}
+
+.pict {
+	width: 103px;
+	height: 32px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.jietu {
+	width: 300px;
+	height: 94px;
+	margin-left: 20px;
+}
+
+.foot {
+	font-size: 14px;
+	color: #999999;
+	margin-left: 150px;
+	margin-top: 5px;
+}
+
+.public {
+	border: 1px #CCC solid;
+	float: left;
+	height: 188px;
+	width: 335px;
+	border-top: none;
+}

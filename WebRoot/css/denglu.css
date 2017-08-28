@@ -1,0 +1,17 @@
+/* CSS Document */
+body{ margin:0; padding:0; font-family:"微软雅黑"}
+#juzhong{ margin:0 auto;}
+.denglu_1{ width:980px; height:30px; background-color:#EBEBEB; line-height:30px; color:#666; font-size:14px; }
+.denglu_2{ width:980px; height:530px;}
+.denglu_3{ width:900px; height:25px; background-color:#FF9; border:solid 1px #CCCCCC; font-size:14px; color:#666; line-height:25px;}
+.denglu_4{ width:900px; height:30px; margin-left:50px; }
+.denglu_5{ width:300px; height:25px;  float:left; font-size:14px; color: #666; margin-left:15px; line-height:25px;}
+.denglu_6{ width:500px; height:25px;  float:right;}
+.denglu_7{ width:20px; height:20px; float:left;}
+.denglu_8{ width:380px; height:20px; float:left;font-size:14px; color: #666; line-height:20px;}
+.denglu_9{ width:800px; height:30px;margin-left:35px; margin-top:10px;}
+.denglu_10{width:100px; height:25px;  float:left; font-size:14px; color: #666; line-height:25px;}
+.denglu_11{ width:89px; height:29px;  float:left;}
+.denglu_12{ width:445px; height:25px;  float:right;font-size:14px; color: #666; line-height:20px;}
+
+

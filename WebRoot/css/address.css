@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.addtop{ margin:0 auto; height:40px; width:980px;}
+.add1{ height:280px; width:980px; margin:0 auto; border:#EBEBEB 1px solid;}
+.add11{ height:280px; width:96px; margin:0 auto;border:#EBEBEB 1px solid; float:left; background-color:#ECECEC}
+.add12{ height:280px; width:880px; margin:0 auto;border:#EBEBEB 1px solid; float:left;}
+.add13 li{ list-style-type:none; margin-top:28px; margin-left:10px; }
+.add2{ height:80px; width:980px; margin:0 auto; border:#EBEBEB 1px solid; margin-top:20px;}
+.add21{ height:80px; width:96px; margin:0 auto;border:#EBEBEB 1px solid; float:left; background-color:#ECECEC; line-height:80px;}
+.add22{ height:80px; width:880px; margin:0 auto;border:#EBEBEB 1px solid; float:left;}
+.add23{ height:40px; width:800px; margin:0 auto; background-color:#ECECEC; margin-top:20px; line-height:40px;padding-left:20px;}
+.add3{ height:80px; width:980px; margin:0 auto; border:#EBEBEB 1px solid;  margin-top:20px;}
+
+.add31{ height:80px; width:96px; margin:0 auto;border:#EBEBEB 1px solid; float:left; background-color:#ECECEC; line-height:80px;}
+.add32{ height:80px; width:880px; margin:0 auto;border:#EBEBEB 1px solid; float:left;}
+.add33{ height:40px; width:800px; margin:0 auto; background-color:#ECECEC; margin-top:20px; line-height:40px; padding-left:20px;}
+.add4{ height:380px; width:980px; margin:0 auto; border:#EBEBEB 1px solid;  margin-top:20px;}
+.add41{ height:380px; width:96px; margin:0 auto;border:#EBEBEB 1px solid; float:left; background-color:#ECECEC; line-height:380px;}
+.add42{ height:380px; width:880px; margin:0 auto;border:#EBEBEB 1px solid; float:left; }
+.add5{ height:180px; width:980px; margin:0 auto; border:#EBEBEB 1px solid;  margin-top:20px;}
+.add51{ height:180px; width:96px; margin:0 auto;border:#EBEBEB 1px solid; float:left; background-color:#ECECEC; line-height:180px;}
+.add52{ height:180px; width:880px; margin:0 auto;border:#EBEBEB 1px solid; float:left;}
+.add53{height:40px; width:800px; margin:0 auto; background-color:#ECECEC; margin-top:20px; line-height:40px; padding-left:20px;}

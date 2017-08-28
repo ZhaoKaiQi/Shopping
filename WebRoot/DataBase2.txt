@@ -1,0 +1,22 @@
+USE shopping
+
+CREATE TABLE t_good(
+gId INTEGER PRIMARY KEY AUTO_INCREMENT,
+gName VARCHAR(30) NOT NULL,
+gSmallPic VARCHAR(50),
+gBigPic VARCHAR(50),
+gPrice FLOAT NOT NULL,
+gVipPrice FLOAT NOT NULL,
+gSvipPrice FLOAT NOT NULL,
+gDes VARCHAR(30)
+)
+
+INSERT INTO t_good(gName,gSmallPic,gBigPic,gPrice,gVipPrice,gSvipPrice)VALUES(
+'男士休闲套装','218438_00--w_130_h_130.jpg','218438_00--w_498_h_498.jpg',134.0,130.0,128.0)
+
+INSERT INTO t_good(gName,gSmallPic,gBigPic,gPrice,gVipPrice,gSvipPrice)VALUES(
+'女士休闲套装','my_01.jpg','my_02.jpg',100.0,80.0,45.0)
+
+SELECT * FROM t_good WHERE gId=2
+
+UPDATE t_good SET gSmallPic='218428_00--w_130_h_130.jpg' WHERE gId=2;

@@ -1,0 +1,559 @@
+/* CSS Document */
+
+body,
+ul {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑"
+}
+
+#juzhong {
+	margin: 0 auto;
+}
+
+.top {
+	height: 37px;
+	background-color: #EBEBEB;
+	margin: 0;
+}
+
+.top_left {
+	width: 122px;
+	height: 25px;
+	float: left;
+	margin-left: 190px;
+	margin-top: 5px;
+}
+
+#nav {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	display: block;
+}
+
+#nav> li {
+	list-style-type: none;
+	float: left;
+	display: block;
+	position: relative;
+}
+
+#nav> li:hover ul {
+	display: block;
+}
+
+#nav> li:hover {
+	background-color: #EBEBEB;
+	background: transparent;
+}
+
+#nav li ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+
+#nav li ul li {
+	list-style-type: none;
+	float: right;
+	border-bottom: 1px #CCCCCC solid;
+	border-right: 1px #CCCCCC solid;
+	border-top: 1px #CCCCCC solid;
+}
+
+#nav li ul li a {
+	display: block;
+	padding: 1px 1px;
+	color: #A2E200;
+	text-decoration: none;
+}
+
+#nav li ul li:hover a {
+	background-color: #F00;
+}
+
+.top_2 {
+	width: 100px;
+	height: 25px;
+	float: left;
+	margin-top: 8px;
+	font-size: 12px;
+	color: #333;
+	text-align: center
+}
+
+.top_2 a {
+	color: #333;
+	text-decoration: none;
+}
+
+#ul_2 {
+	list-style-type: none;
+}
+
+#ul_2> li {
+	float: right;
+	margin-right: 20px;
+}
+
+#ul_2> li a {
+	color: #333
+}
+
+#ul_2> li:hover ul {
+	display: block;
+}
+
+#ul_2> li:hover {
+	background-color: #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.top_right {
+	width: 500px;
+	height: 25px;
+	float: right;
+	margin-right: 195px;
+	margin-top: 8px;
+	font-size: 12px;
+	color: #333;
+}
+
+#ul_1 {
+	list-style-type: none;
+}
+
+#ul_1> li {
+	float: right;
+	margin-left: 30px;
+}
+
+#ul_1> li:hover ul {
+	display: block;
+}
+
+#ul_1> li:hover {
+	background-color: #FFF;
+	border: solid 1px #999999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#ul_1 li ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+
+#ul_1 li ul li {
+	list-style-type: none;
+	margin: 10px 0 0 0;
+}
+
+#ul_1 li ul li a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+
+#ul_1 li ul li:hover a {
+	background-color: #999;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.login {
+	width: 980px;
+	height: 100px;
+}
+
+.left {
+	width: 249px;
+	height: 90px;
+	float: left;
+	margin-right: 60px;
+}
+
+.center {
+	width: 400px;
+	height: 90px;
+	float: left;
+}
+
+.div_1 {
+	width: 400px;
+	height: 33px;
+	margin-top: 30px;
+}
+
+.bBorder {
+	color: #666;
+}
+
+.fBorder {
+	color: #000;
+}
+
+.div_2 {
+	width: 400px;
+	height: 40px;
+	margin-top: 5px;
+	font-size: 13px;
+	color: #949494
+}
+
+.div_2 a {
+	text-decoration: none;
+	color: #949494
+}
+
+.div_2 a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.right {
+	width: 150px;
+	height: 50px;
+	float: right;
+	margin-top: 32px;
+}
+
+.div_3 {
+	width: 47px;
+	height: 50px;
+	float: left;
+}
+
+.div_4 {
+	width: 80px;
+	height: 40px;
+	float: right;
+}
+
+.menu {
+	height: 40px;
+	border-bottom: 1px #000000 solid;
+	border-top: 3px solid #000;
+}
+
+.div_5 {
+	width: 980px;
+	height: 35px;
+}
+
+#ul_3 {
+	list-style-type: none;
+}
+
+#ul_3> li {
+	float: right;
+	margin-right: 25px;
+	line-height: 34px;
+}
+
+#ul_3> li:hover ul {
+	display: block;
+}
+
+#ul_3> li:hover {
+	background-color: #CCC;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	border: solid 1px #999999;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.div_6 {
+	width: 980px;
+	height: 30px;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.lunbo {
+	width: 200px;
+	height: 25px;
+	z-index: 2;
+	position: absolute;
+	margin-top: 470px;
+	margin-left: 40px;
+}
+
+.div_6 a {
+	text-decoration: none;
+	color: #999;
+}
+
+.div_6 a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.lunbo a {
+	font-size: 14px;
+	color: #FFF;
+	height: 18px;
+	width: 20px;
+	border: 1px solid #333;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	text-align: center;
+	background-color: #333;
+	line-height: 18px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.lunbo a:hover {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #39F;
+	border: 1px solid #39F;
+	text-decoration: none;
+	display: block;
+}
+
+.content {
+	width: 980px;
+	height: 360px;
+}
+
+.div_7 {
+	width: 356px;
+	height: 358px;
+	float: left;
+	border-bottom: 1px #000000 solid;
+	border-left: 1px #000000 solid;
+	border-top: 1px solid #000;
+}
+
+.up {
+	width: 245px;
+	height: 78px;
+	border-bottom: 1px #999999 solid;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+
+.down {
+	width: 245px;
+	height: 210px;
+	margin-left: 62px;
+}
+
+.end {
+	width: 75px;
+	height: 26px;
+	margin-left: 260px;
+}
+
+.div_8 {
+	width: 623px;
+	height: 360px;
+	float: right
+}
+
+.div_9 {
+	width: 481px;
+	height: 360px;
+	border: solid 1px #000000;
+	float: left;
+}
+
+.div_10 {
+	width: 481px;
+	height: 360px;
+	border: solid 1px #000000;
+	float: right;
+}
+
+.picture {
+	width: 481px;
+	height: 241px;
+}
+
+.side {
+	width: 480px;
+	height: 90px;
+}
+
+.side_left {
+	width: 175px;
+	height: 75px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	border-right: 1px #999999 solid;
+}
+
+.side_right {
+	width: 270px;
+	height: 75px;
+	float: right;
+	margin-top: 10px;
+}
+
+.end_1 {
+	width: 75px;
+	height: 26px;
+	float: right;
+	margin-right: 30px;
+}
+
+.end_2 {
+	width: 980px;
+	height: 150px;
+}
+
+.end_2 a {
+	text-decoration: none;
+	color: #999;
+}
+
+.end_2 a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.div_12 {
+	width: 120px;
+	height: 130px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.div_13 {
+	width: 120px;
+	height: 130px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.div_14 {
+	width: 160px;
+	height: 130px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.end_3 {
+	width: 980px;
+	height: 40px;
+}
+
+.div_15 {
+	width: 320px;
+	height: 40px;
+	border-right: solid 1px #CCCCCC;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	color: #999
+}
+
+.div_16 {
+	width: 320px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	color: #999
+}
+
+.end_4 {
+	width: 980px;
+	height: 30px;
+}
+
+.jw_left {
+	width: 430px;
+	height: 28px;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+}
+
+#ul_4 {
+	list-style-type: none;
+}
+
+#ul_4> li {
+	float: right;
+	line-height: 30px;
+	margin-right: 15px;
+	font-size: 12px;
+	color: #999;
+}
+
+#ul_4> li:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.jw_center {
+	width: 350px;
+	height: 28px;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+}
+
+.jw_right {
+	width: 97px;
+	height: 28px;
+	float: right;
+	margin-right: 50px;
+}
+
+.end_5 {
+	height: 100px;
+	background-color: #EBEBEB
+}
+
+.div_17 {
+	width: 400px;
+	height: 40px;
+	font-size: 12px;
+	color: #999;
+	line-height: 40px;
+}
+
+.div_18 {
+	width: 137px;
+	height: 40px;
+	float: left
+}
+
+.div_19 {
+	width: 117px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+}
+
+.div_20 {
+	width: 112px;
+	height: 40px;
+	float: right;
+}
+
+#div_zx_container ul li img{
+	width: 200px;
+	height: 150px;
+}
+
+#div_zx_container ul li{
+	float: left;
+    margin: 22px;
+}

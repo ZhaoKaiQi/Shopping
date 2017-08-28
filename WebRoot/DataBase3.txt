@@ -1,0 +1,30 @@
+USE shopping
+
+#订单的表
+
+CREATE TABLE t_order(
+oId INTEGER PRIMARY KEY AUTO_INCREMENT,
+uId INT NOT NULL,
+oTime DATETIME,
+oTotalPrice FLOAT NOT NULL,
+CONSTRAINT t_order_user_fk FOREIGN KEY(uId) REFERENCES t_user(uId)
+)
+
+ALTER TABLE t_order ADD COLUMN oState INT DEFAULT 0
+
+#订单项表
+CREATE TABLE t_orderDetail(
+oDId INTEGER PRIMARY KEY AUTO_INCREMENT,
+oId INT NOT NULL,
+CONSTRAINT t_orderDetail_order_fk FOREIGN KEY(oId) REFERENCES t_order(oId)
+)
+
+#中间的关系表
+CREATE TABLE t_relation(
+ogId INTEGER PRIMARY KEY AUTO_INCREMENT,
+gId INT NOT NULL,
+oDId INT NOT NULL,
+CONSTRAINT t_relation_good_fk FOREIGN KEY(gId) REFERENCES t_good(gId),
+CONSTRAINT t_relation_orderDetail_fk FOREIGN KEY(oDId) REFERENCES t_orderDetail(oDId)
+)
+

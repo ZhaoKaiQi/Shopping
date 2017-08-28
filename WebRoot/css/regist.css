@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.sum{width:980px; height:570px;  margin:0 auto;}
+.logo{width:980px; height:87px;  margin:0 auto}
+.content{width:980px; height:460px; border: 1px #CCCCCC solid; margin:0 auto}
+.menu{width:980px;background:#eee;height:37px;border-right:#A8C29F solid 1px; padding-top:1px;}
+
+.table{width:645px; height:280px;  float:left; margin-top:10px; }
+.landYzm{ width:645px; height:130px;  float:left; margin-top:20px}
+.pic{ width:214px; height:333px;  margin-bottom::50px; margin-left:680px;}
+.foot{font-size:14px; color:#999999; margin-left:400px;  width:480px; line-height:10px}
+
+
+
+ul{ margin-top:0px;}
+#cc li:hover {background-color:#CCC}
+li{float:left;width:99px;text-align:center;line-height:37px;height:37px;cursor:pointer;border-right:#A8C29F solid 1px;color:#666;font-size:16px;overflow:hidden}
